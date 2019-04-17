@@ -496,11 +496,18 @@ def practice_problem3c(sequence):
     #    DIFFICULTY:      5
     #    TIME ESTIMATE:   8 minutes.
     ###########################################################################
-    zeros = []
+    list = []
     for k in range(len(sequence)):
         if sequence[k] == 0:
-            zeros = zeros + [k]
-    return zeros
+            list = list + [k]
+    return list
+
+
+    # zeros = []
+    # for k in range(len(sequence)):
+    #     if sequence[k] == 0:
+    #         zeros = zeros + [k]
+    # return zeros
 
 
 
@@ -629,6 +636,12 @@ def practice_problem3d(sequence):
         if sequence[k] == 0:
             return k
     return -1
+
+
+    # for k in range(len(sequence)):
+    #     if sequence[k] == 0:
+    #         return k
+    # return -1
 
     ###########################################################################
     # DONE: 6. Just ABOVE this _TODO_, you should have implemented
